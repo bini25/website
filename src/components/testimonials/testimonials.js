@@ -7,27 +7,46 @@ export default class Testimonials extends Component {
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
-              <h1><span>Client Testimonials</span></h1>
+              <h1><span>Quotes</span></h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
+                <li>
+                    <blockquote>
+                      <p> You are the Semicolon to My Statements;
+                      </p>
+                      <cite>Anonymous</cite>
+                    </blockquote>
+                  </li>
                   <li>
                     <blockquote>
-                      <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                      <p>Without requirements or design, programming is the art of adding bugs to an empty text file
                       </p>
-                      <cite>Steve Jobs</cite>
+                      <cite>Louis Srygley</cite>
                     </blockquote>
                   </li> {/* slide ends */}
                   <li>
                     <blockquote>
-                      <p> Get in touch & let us do amazing things together!
+                      <p> Thing aren't always #000000 and #ffffff
                       </p>
-                      <cite>Mr. Bini</cite>
+                      <cite>Anonymous</cite>
                     </blockquote>
-                  </li> {/* slide ends */}
+                  </li> 
+                  <li>
+                    <blockquote>
+                      <p> A good programmer is someone who always looks both ways before crossing a one-way street.
+                      </p>
+                      <cite>Doug Linder</cite>
+                    </blockquote>
+                  </li>  
+                  <li>
+                    <blockquote>
+                      <p>I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.
+                      </p>
+                      <cite>Oktal</cite>
+                    </blockquote>
+                  </li>  
                 </ul>
               </div> {/* div.flexslider ends */}
             </div> {/* div.flex-container ends */}

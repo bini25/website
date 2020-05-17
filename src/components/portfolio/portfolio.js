@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/coffee.jpg" />
+                    <img alt="" src="images/portfolio/E-commerce.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Techoftouch</h5>
@@ -126,7 +126,7 @@ export default class Portfolio extends Component {
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/E-commerce.png" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/e-commerce.jpg" alt="" />
             <div className="description-box">
               <h4>Techoftouch</h4>
               <p>a great place for a nice e-commerce site for awesome Gadgets</p>

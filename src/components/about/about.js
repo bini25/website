@@ -29,7 +29,7 @@ export default class About extends Component {
                         </div>
                         <div className="columns download">
                           <p>
-                          <a href="BMresume" target="_blank" rel="noopener noreferrer" download>
+                          <a href="BMresume.pdf" target="_blank" rel="noopener noreferrer" download>
                        <button>
                           <i className="fa fa-download"  />
                                 Download Resume

@@ -6,6 +6,7 @@ export default class Contactus extends Component {
       { <section id="contact">
         <div className="row section-head">
           <div className="two columns header-col">
+          <h4><span>Have a question or want to work together?</span></h4>
             <h1><span>Get In touch</span></h1>
           </div>
           <div className="ten columns">
@@ -16,7 +17,7 @@ export default class Contactus extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
+            <form action="inc/sendEmail.php" method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -32,7 +33,7 @@ export default class Contactus extends Component {
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <textarea cols={50} rows={8} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
                   <button className="submit">Submit</button>
@@ -51,14 +52,13 @@ export default class Contactus extends Component {
           </div>
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+            <h4>Address and Phone</h4>
               <p className="address">
                 Beniyam Mitiku<br />
                 3910 Tynewick dr <br />
                 silver spring, MD, 20906 US<br />
                 <span>(240) 491-7665</span>
               </p>
-            
       
             </div>
           </aside>
